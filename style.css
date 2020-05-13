@@ -54,6 +54,13 @@ body {
     font-weight: normal;
 }
 
-.article__paragraf {
+.special {
+    color: #ED6D05;
+    font-weight: normal;
+}
 
+.link {
+    color: #ED6D05;
+    font-weight: normal;
+    text-decoration: none;
 }
