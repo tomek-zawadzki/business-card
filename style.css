@@ -7,36 +7,53 @@ html {
 
 body {
     background-color: #2C2141;
-    height: 100vh;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-main {
+.main {
+    border-radius: 16px;
+    padding: 32px;
+    background-color: #F8F8F8;
+    margin: 16px;
+
   
 }
 
-.section-avatar {
+.article__avatar {
     width: 148px;
     height: 148px;
     border-radius: 50%;
-    margin-top: 32px;
-    margin-left: 32px;
+    margin-right: 32px;
+    display: flex;
+    justify-content: center;
 }
 
-.section {
+.article {
     box-sizing: border-box;
-    background-color: #F8F8F8;
+
     width: 624px;
-    margin: 0 auto;
     border-radius: 16px;
     display: flex;
 }
 
-.header-paragraf {
-    margin-top: 0px;
-    padding-top: 0px;
+.header__paragraf {
+    margin: 0px;
+    padding-bottom: 24px;
+    color: #545454;
+    font-size: 18px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
-    margin-bottom: 0px;
-    padding-bottom: 0px;
+.header__title {
+    margin: 0px;
+    font-weight: normal;
+}
+
+.article__paragraf {
+
 }
