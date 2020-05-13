@@ -1,0 +1,42 @@
+html {
+    box-sizing: border-box;
+   }
+   *, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #2C2141;
+    height: 100vh;
+}
+
+main {
+  
+}
+
+.section-avatar {
+    width: 148px;
+    height: 148px;
+    border-radius: 50%;
+    margin-top: 32px;
+    margin-left: 32px;
+}
+
+.section {
+    box-sizing: border-box;
+    background-color: #F8F8F8;
+    width: 624px;
+    margin: 0 auto;
+    border-radius: 16px;
+    display: flex;
+}
+
+.header-paragraf {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+h1 {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
